@@ -1,0 +1,29 @@
+/* Addtask.css */
+
+.add-task-btn {
+  margin-top: 10px;
+  margin-left: 10px; /* Move the button to the left corner */
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.add-task-btn:hover {
+  transform: scale(1.1); /* Add 3D effect on hover */
+}
+
+@media (max-width: 767px) {
+  .modal-content {
+    margin: 10% auto;
+    width: 90%;
+  }
+  .add-task-btn {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100%;
+    text-align: center; /* Align text to the center for smaller screens */
+  }
+}
